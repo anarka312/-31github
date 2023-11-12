@@ -161,7 +161,25 @@ header {
     }
 
     .header__menu-list {
-        display: none;
+        width: 153px;
+        background-color: #7B6152;
+        color: #FFF8F3;
+        flex-direction: column;
+        gap: 20px 0;
+        padding: 25px 35px 25px 45px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: translateY(-310px);
+        transition: transform .5s ease;
+        z-index: 5;
+       
+        
+    }
+
+    .header__menu-list.menu--open {
+        transform: translateY(0);
+
     }
 
     .menu__btn {
@@ -189,5 +207,6 @@ header {
 
     .footer {
         padding: 50px 0;
+        font-style: 14px;
     }
 }
