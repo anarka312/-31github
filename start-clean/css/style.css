@@ -140,7 +140,7 @@ margin-bottom: 48px;
 
 .about {
     background-color:  #A5978E;
-    padding: 50px;
+    padding: 50px 0;
     color: #FAFAFA;
 }
 
@@ -151,7 +151,7 @@ margin-bottom: 48px;
 }
 
 .about__content {
-    flex-basis: 370px;
+    min-width: 370px;
 
 }
 
@@ -266,6 +266,14 @@ margin-bottom: 48px;
     .top__text {
         margin-bottom: 30px;
     }
+
+    .about__content {
+    min-width: 300px;    
+}
+
+    .about__list {
+        padding-left: 20px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -311,12 +319,51 @@ margin-bottom: 48px;
     }
 
     .top__text {
-        font-size: 10px;
+        
         margin-bottom: 20px;
     }
 
     .top__img {
         left: 180px;
+    }
+
+    .about__content {
+        min-width: 200px;
+
+    }
+
+    .title {
+        font-size: 15px;
+    }
+
+    .about__title {
+        margin-bottom: 20px;
+    }
+
+    .about__list {
+        margin-left: 12px;
+        margin-bottom: 33px;
+        gap: 0 10px;
+    }
+
+    .about__item-text {
+        font-size: 6px;
+    }
+
+    .about__item-img {
+        margin-bottom: 6px;
+    }
+
+    .about__item-img--1 {
+        width: 120px;
+    }
+
+    .about__item-img--2 {
+        width: 190px;
+    }
+
+    .about__item-img--3 {
+        width: 120px;
     }
 }
 
@@ -355,6 +402,9 @@ margin-bottom: 48px;
     .header__menu {
         order: 1;
     }
+
+    
+
 }
 
 @media (max-width: 500px) {
@@ -406,6 +456,36 @@ margin-bottom: 48px;
         padding: 38px 0 50px;
     }
 
+    .about__content {
+        min-width: 170px;
+    }
+
+    .about__list {
+        margin-left: 0;
+        padding-left: 10px;
+    }
+
+    .about__item-text {
+        display: none;
+    }
+
+    .about__item-img--1,
+    .about__item-img--3 {
+        width: 80px;
+    }
+    .about__item-img--2 {
+        width: 140px;
+    }
+
+    .about__list {
+        gap: 0 5px;
+        align-items: flex-end;
+        margin-bottom: 0;
+    }
+
+    .about__inner {
+        align-items: flex-end;
+    }
 }
 
 @media (max-width: 360px) {
@@ -434,6 +514,31 @@ margin-bottom: 48px;
        
     }
 
-   
+   body {
+    font-size: 8px;
+   }
+
+   .about__content {
+    min-width: 233px;
+   }
+
+   .title {
+    margin-bottom: 10px;
+   }
+
+   .about__list {
+    padding-left: 12px;
+    margin-left: 15px;
+    grid-template: 0 15px;
+   }
+
+   .about {
+    padding-top: 25px;
+    padding-bottom: 10px;
+   }
+
+   .about__item-img--2 {
+    display: none;
+   }
 
 }
