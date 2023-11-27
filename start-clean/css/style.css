@@ -393,6 +393,10 @@ margin-bottom: 48px;
     font-size: 10px;
 }
 
+.feedback {
+    padding-top: 111px;
+}
+
 .feedback__item {
     padding-left: 20px;
     display: grid;
@@ -441,6 +445,10 @@ margin-bottom: 48px;
     position: absolute;
     bottom: 10px;
     right: 0;
+}
+
+.feedback__slider {
+    width: 760px;
 }
 
 
