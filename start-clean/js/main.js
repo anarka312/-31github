@@ -5,6 +5,7 @@ menuBtn.addEventListener('click', ()=> {
     menuMobile.classList.toggle('menu--open');
 });
 
+
 const swiperOne = new Swiper('.feedback__slider', {
     
     loop: true,
@@ -16,7 +17,6 @@ const swiperOne = new Swiper('.feedback__slider', {
   
   });
 
-  
 const swiperTwo = new Swiper('.sertificates__slider', {
     
   loop: true,
@@ -27,6 +27,7 @@ const swiperTwo = new Swiper('.sertificates__slider', {
   pagination: {
     el: '.swiper-pagination',
   },
+
 
   breakpoints: {
     640: {
@@ -43,3 +44,4 @@ const swiperTwo = new Swiper('.sertificates__slider', {
   }
 
 });
+

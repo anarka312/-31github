@@ -39,6 +39,7 @@ button {
     margin-bottom: 15px;
     font-weight: 400;
     font-family: 'Yeseva One', cursive;
+
 }
 
 .section {
@@ -315,6 +316,7 @@ margin-bottom: 48px;
 .steps__item-text {
     flex-basis: 174px;
     padding-bottom: 40px;
+
 }
 
 .courses__item-img {
@@ -350,10 +352,12 @@ margin-bottom: 48px;
 
 .courses__price {
     padding: 19px 10px;
-    
+    background-color: #BEA495;
+    position: absolute;
     right: 0px;
     bottom: 2px;
 }
+
 
 .courses__title,
 .courses__time,
@@ -361,6 +365,7 @@ margin-bottom: 48px;
     background-color: #BEA495;
     position: absolute;
 }
+
 
 .team {
     background-color: #A5978E;
@@ -405,16 +410,18 @@ margin-bottom: 48px;
 }
 
 .feedback__item {
-    
+    padding-left: 20px;
     display: grid;
     grid-template-columns: auto auto;
     gap: 0 16px;
     align-items: center;
 }
 
+
 .feedback__descr {
     margin-right: 20px;
 }
+
 
 
 .feedback__item-video {
@@ -497,10 +504,6 @@ margin-bottom: 48px;
     bottom: 60px;
     text-align: left;
 }
-
-
-
-
 
 
 
@@ -607,6 +610,7 @@ margin-bottom: 48px;
         padding: 50px 0;
     }
 
+
     .feedback__inner {
         grid-template-columns: 260px auto;
     }
@@ -627,6 +631,7 @@ margin-bottom: 48px;
         text-align: center;
     }
   
+
 }
 
 @media (max-width: 900px) {
@@ -817,10 +822,12 @@ margin-bottom: 48px;
    
     }
 
+
     .team__item-name {
-    font-size: 8px;
+        font-size: 8px;
     
     }
+
 
     .team__item-descr {
     font-size:7px;
@@ -841,6 +848,7 @@ margin-bottom: 48px;
     .feedback__item-content {
         padding-bottom: 45px;
     }
+
 
 }
 
@@ -997,6 +1005,7 @@ margin-bottom: 48px;
         gap: 25px 40px;
     }
 
+
     .team {
         margin-bottom: 50px;
     }
@@ -1009,6 +1018,7 @@ margin-bottom: 48px;
         width: 415px;
         margin: 0 auto;
     }
+
 }
 
 @media (max-width: 404px) {
@@ -1148,6 +1158,7 @@ margin-bottom: 48px;
         font-size: 6px;
     }
 
+
     .courses__item,
     .courses__item img {
         width: 255px;
@@ -1183,3 +1194,4 @@ margin-bottom: 48px;
     }
 
 }
+
