@@ -287,7 +287,14 @@ body {
   flex-wrap: wrap;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1469px) {
+  .header__content-images img {
+    max-width: 100%;
+  }
+  .title {
+    font-size: 180px;
+    transform: translate(129px, 29px);
+  }
   .choose-color__list {
     flex-wrap: wrap;
   }
@@ -340,9 +347,26 @@ body {
 
   .composition__inner {
     flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
   }
 
   .composition__inner-text p {
     width: 100%;
+  }
+}
+
+@media (max-width: 414px) {
+  .main__title,
+  .choose-color__title {
+    font-size: 28px;
+  }
+
+  .energy__num {
+    font-size: 92px;
+  }
+
+  .case img {
+    max-width: 100%;
   }
 }
