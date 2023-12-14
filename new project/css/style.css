@@ -44,6 +44,14 @@ body {
   margin-bottom: 20px;
 }
 
+.content__item {
+  display: none;
+}
+
+.content__item.content__item-active {
+  display: inline-block;
+}
+
 .header {
   min-height: 100vh;
 }
@@ -144,6 +152,10 @@ body {
   border-radius: 20px;
   border: 1px solid #777;
   padding: 50px 55px;
+}
+
+.choose__color-btn--active {
+  display: none;
 }
 
 .composition {
